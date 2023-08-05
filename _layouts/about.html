@@ -1,0 +1,17 @@
+---
+
+---
+<head>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+{% include header.html %}
+
+<div class="contentColumn">
+    <img class="blogImage" src="{{page.image_url}}"/>
+    <p>{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}</p>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+</div>
+  
+
+
