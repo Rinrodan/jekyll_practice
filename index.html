@@ -4,10 +4,12 @@ title: Home
   <head>
     
   </head>
-  <title>{{ page.title }}</title>
+  <title alt="{{ page.title }}">{{ page.title }}</title>
   <body>
     {% include hero.html %}
-    
+    <div class="blogCardSection">
+      {% include blogCard.html %}
+    </div>
     
     
   </body>

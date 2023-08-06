@@ -3,11 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 html {
-    color: #111827;
+    color: #111827e8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p {
-    color: #374151;
+    color: #080808cb;
     font-size: 1.1rem;
 }
 .homeBackground{
@@ -65,10 +65,10 @@ justify-content: flex-end;
     margin: auto;
 
 }
-.navbutton {
+.navButton {
     display: flex;
     flex-direction: column;
-    background-color: rgb(199, 199, 247);
+    background-color: rgba(248, 248, 250, 0.438);
     height: 2rem;
     width: 4rem;
     margin: auto;
@@ -76,15 +76,17 @@ justify-content: flex-end;
     justify-content: center;
     vertical-align: middle;
     border-radius: 10px;
-    box-shadow: 3px 3px 9px black;
+    text-decoration: none;
+    box-shadow: 3px 3px 6px black;
 }
 
 .heroSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 75%;
-    height: 25rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
     margin: auto;
     margin-top: 2rem;
     /* background-color: aqua; */
@@ -92,9 +94,13 @@ justify-content: flex-end;
 .heroTextContainer {
     display: flex;
     flex-direction: column;
+    justify-content:space-around;
     width: 50%;
     height: 50%;
+    min-height: 20rem;
+    min-width: 15rem;
     margin: auto;
+    margin-top: 6rem;
     /* background-color: rgb(186, 198, 44); */
 }
 .heroTitle {
@@ -103,7 +109,8 @@ justify-content: flex-end;
     width: 100%;
     height: 50%;
     margin: auto;
-    vertical-align: bottom;
+    margin-bottom: 1rem;
+    vertical-align: middle;
     font-size: 3rem;
     font-weight: 400;
     /* background-color: rgba(0, 55, 255, 0.281); */
@@ -115,6 +122,7 @@ justify-content: flex-end;
      width: 100%;
      height: 50%;
      margin: auto;
+     margin-top: 1rem;
      font-size: 1.2rem;
     font-weight: 200;
      /* background-color: rgba(34, 0, 255, 0.596); */
@@ -122,11 +130,10 @@ justify-content: flex-end;
 .heroImageContainer {
     display: flex;
     justify-content: center;
-    width: 50%;
-    height: 100%;
+    width: 30rem;
+    height: 30rem;
     margin: auto;
    
-    
 }
 .heroImage {
     width: auto;
@@ -134,7 +141,8 @@ justify-content: flex-end;
     object-fit: scale-down;
     margin: auto;
     border-radius: 15px;
-}.grid-container-page {
+}
+.grid-container-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.8fr 2.4fr 0.3fr;
@@ -206,17 +214,17 @@ justify-content: flex-end;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* background-color: chartreuse; */
 }
 .blogCard {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    width: 30%;
-    min-width: 520px;
-    max-width: 700px;
-    height: 30rem;
+    width: auto;
+    min-width: 400px;
+    max-width: 12rem;
+    height: 20rem;
     margin: auto;
     margin-top: 2rem;
     object-fit: cover;
