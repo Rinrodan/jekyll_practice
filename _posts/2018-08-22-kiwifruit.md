@@ -2,6 +2,11 @@
 layout: post
 author: ted
 description: This is a blog post about kiwi fruit.
+tags:
+- fruit
+- food
+- kiwi
+
 image_url: https://servingjoy.com/wp-content/uploads/2015/04/Fun-Facts-of-Kiwifruit.jpg
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the

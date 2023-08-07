@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: post
 title: About Me
 date: 2023-02-19T19:53:33+05:30
 draft: false

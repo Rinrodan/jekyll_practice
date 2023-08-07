@@ -1,0 +1,11 @@
+---
+title: Top-Post
+---
+
+<h1>Top Blog Post</h1>
+<h1>Articles tagged with "{{ post.top-post }}"</h1>
+{% for post in site.posts %}
+{% if post.tags contains post.top-post %}
+    {{content}}
+    {% endif %}
+{% endfor %}

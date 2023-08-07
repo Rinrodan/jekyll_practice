@@ -8,7 +8,7 @@ draft: false
 author: "Hana Bustillos"
 tags:
   - blog
-  - stressed mom
+  - stressed-mom
 keywords:
   -
 
@@ -45,7 +45,7 @@ excerpt: "I’ve had a lot of job experience in writing devotions, sermons, pray
 &nbsp;&nbsp; In early December 2020, we got the dreaded call that our daycare was closed for two weeks because of a Covid exposure.  So we embarked, like so many parents, on yet another day of trying to figure out what to do with an almost-three-year-old and a just-turned-one-year-old.  My husband was home from work that day and, no doubt reading my rocketing stress levels, he gave me a hug and suggested I take the morning off while he stayed with the kids, and I go do something just for myself (we try to give each other regularly scheduled parenting breaks anyways, but this was not the original plan for the day).  I went to our family room to read, but I was so stressed I couldn’t focus on anything fun.  My mind was racing and I just could not settle.
 
 
-{{< figure src="/images/why-stressed-mom-loud-kids-1.jpg" alt="Stressed out mom and kids" attr="Photo by Ketut Subiyanto" attrlink="https://www.pexels.com/photo/kids-making-noise-and-disturbing-mom-working-at-home-4474035/" width="100%" height="auto" >}}
+[Stressed out mom and kids](https://www.pexels.com/photo/kids-making-noise-and-disturbing-mom-working-at-home-4474035/)
 
 
 &nbsp;&nbsp; Eventually, I laid down on the couch and committed to really untangling what was bothering me so much.  At this point I had been a mom for just under three years.  I had gotten through a rough newborn period with my first, been breastfeeding for all that time (tandem breastfeeding since my second was born), had managed a busy work/life schedule, and that was before Covid came and turned our whole world upside down, and we had moved just under two months before.  Yet I never felt “settled” in my role as a mother, and I felt completely thrown by the prospect of being a stay-at-home mom for two weeks.
@@ -69,7 +69,7 @@ excerpt: "I’ve had a lot of job experience in writing devotions, sermons, pray
 &nbsp;&nbsp; So not only do we feel shocked/surprised/upset/frustrated, but we feel as though we have no capacity to deal with whatever the situation is.  And that sense of failure or inadequacy is haunting.  That feeling that no matter how much we plan or prepare, life as a mom is always going to throw us a curveball one way or another and we will not see it coming.
 
 
-{{< figure src="/images/why-stressed-woman-1.jpg" alt="Stressed out woman" attr="Photo by Ana Bregantin" attrlink="https://www.pexels.com/photo/woman-face-emotion-alone-1930523/" width="50%" height="auto" >}}
+![Stressed out woman](https://www.pexels.com/photo/woman-face-emotion-alone-1930523/)
 
 
 ## God’s Love
@@ -111,8 +111,7 @@ The website banner says it best: __I am here to tell you that even on your worst
 &nbsp;&nbsp; In 2020, like a lot of parents, I was feeling pretty stressed and inadequate.  Even after my children returned to daycare, it was so inconsistent.  We muddled through, but I never felt prepared, I never felt like it was something I could handle without a problem.  I felt like I didn’t know what to do with my kids to give them meaningful, educational, and enriching experiences at home, on top of the practical needs of day-to-day life.  I’m being very honest with my feelings here, but please also hear that I say this from a position of immense privilege - my husband is active duty military, so we have a stable income whether or not I’m working, as well as very affordable child care, and health insurance that covers almost all the important stuff cost-free. 
 
 <br>
-{{< figure src="/images/romanssunbeam2.jpg" class="rounded" width="800">}}
-<sup>[Photo by Erkam Hayta:](https://www.pexels.com/photo/narrow-street-in-city-residential-district-in-morning-6460856/)</sup>
+[Photo by Erkam Hayta:](https://www.pexels.com/photo/narrow-street-in-city-residential-district-in-morning-6460856/)
 
 ## Wait, This Isn't One of My Gifts
 
@@ -133,8 +132,7 @@ The website banner says it best: __I am here to tell you that even on your worst
 
 
 <br>
-{{< figure src="/images/romanssunbeam2.jpg" class="rounded" width="800">}}
-<sup>[Photo by Erkam Hayta:](https://www.pexels.com/photo/narrow-street-in-city-residential-district-in-morning-6460856/)</sup>
+![Photo by Erkam Hayta:](https://www.pexels.com/photo/narrow-street-in-city-residential-district-in-morning-6460856/)
 
 ## God’s Love
 &nbsp;&nbsp; This blog exists as a reminder to all moms (and parents, for that matter), that you are good at your job.  You don’t have to be perfect.  You don’t have to be especially “gifted” at whatever it is that you think makes a good mom.  After all, the gifts I see in myself (being nurturing, analytical, a planner, and hyperfocusing), are all things that are great in some situations, not great in others.  
