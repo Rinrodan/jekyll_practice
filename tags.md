@@ -4,7 +4,7 @@ title: Tag Page
 permalink: /tags
 ---
 <div markdown=1 class="tagsSection">
-# Tags Page
+
 
 <div markdown=1 class="tagPageButtonsContainer">
 
@@ -27,10 +27,12 @@ permalink: /tags
 
 {% for post in tag[1] %}
 <div markdown=1 class="tagLink">
-<div class="tagImageContainer">
+<!-- <div class="tagImageContainer">
 <img class="tagImage" alt="{{ post.title }}" src="{{post.image_url}}"/>
-</div>
-[{{ post.title }}]({{ post.url }})
+</div> -->
+## [{{ post.title }}]({{ post.url }}) &nbsp; 
+
+##### {{ post.date | date_to_string }}
 </div>
 {% endfor %}
 

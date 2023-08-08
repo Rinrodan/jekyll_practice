@@ -3,13 +3,41 @@
 @tailwind components;
 @tailwind utilities;
 html {
+    --box-background-color: hsl(240, 9%, 90%);
+    --extra-light-text-color: hsl(240, 1%, 45%);
+    --light-border-color: hsl(0, 0%, 90%);
+    --light-text-color: hsl(240, 1%, 29%);
+    --link-color: rgb(65, 110, 210);
+    /* --main-background-color: white;//rgb(250, 250, 250);
+    --main-text-color: hsl(0, 0%, 10%);
+    --underline-color: hsl(0, 0%, 50%); */
     color: #111827e8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
 }
 p {
-    color: #080808cb;
+    color: var(--light-text-color);
     font-size: 1.1rem;
+}
+p > img {
+    display: flex;
+    margin: auto;
+    width: 40%;
+    max-width: 800px;
+    min-width: 400px;
+    height: auto;
+    max-height: 400px;
+    object-fit:scale-down;
+}
+img ~ a {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: max-content;
+    font-size: small;
+}
+a {
+    color: var(--light-text-color);
 }
 .homeBackground{
     background-color: rgb(248, 204, 166);
@@ -47,10 +75,13 @@ p {
     vertical-align: middle;
     
 }
+
 .navbarContainer {
 display: flex;
 flex-direction: row;
 width: 33%;
+max-width: 350px;
+min-width: 300px;
 height: 3rem;
 margin: auto;
 justify-content: flex-end;
@@ -164,6 +195,7 @@ justify-content: flex-end;
     align-content: center;
     justify-content: center;
     width: 100%;
+    max-width: 800px;
     height: auto;
     margin: auto;
     /* margin-right: 40%;
@@ -193,11 +225,33 @@ justify-content: flex-end;
     display: flex;
     flex-direction: row;
     font-size: small;
-    width: 40%;
+    width: max-content;
     margin: auto;
     margin-top: 0px;
     text-align: left;
 
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    border-top: 1px solid var(--light-text-color);
+    color: var(--light-text-color);
+    flex-wrap: wrap;
+    font-size: var(--small-font-size);
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem 0 calc(3 * var(--line-height)) 0;
+    width: 40%;
+    max-width: 800px;
+    height: 8rem;
+    
+}
+.footer > a {
+    color: var(--light-text-color);
+    margin:auto;
+    text-decoration: none;
 }
 .pageTitle {
     display: flex;
@@ -253,9 +307,10 @@ justify-content: flex-end;
     border-radius: 20px;
     /* background-color: rgb(2, 44, 44); */
 }
-.blogCardImageContainerThree {
+.blogCardsectionThree {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     vertical-align: middle;
     width: 100%;
     height: 40rem;
@@ -321,6 +376,8 @@ justify-content: flex-end;
     max-width: 30rem;
     flex-wrap: wrap;
     margin: auto;
+    color: black;
+    text-decoration: none;
     
 }
 .tagPageButton {
@@ -343,10 +400,11 @@ justify-content: flex-end;
     display: flex;
     flex-direction: column;
     width: 40%; 
+    max-width: 800px;
+    min-width: 500px;
     height: auto;
     margin: auto;
     margin-bottom: 2rem;
-    padding-left: 3rem;
     border: 2px solid rgba(107, 106, 106, 0.192);
     text-align: center;
 }
@@ -356,12 +414,24 @@ justify-content: flex-end;
 
 .tagLink {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width:80%;
+    flex-direction: column;
+    height: min-content;
+    vertical-align: middle;
+    width:75%;
     margin: auto;
+    margin-bottom: 1rem;
     text-decoration: none;
-    
+}
+.taglink > h5 {
+    display: flex;
+    height: min-content;
+    margin: 0px;
+    margin-left: 1rem;
+}
+.taglink > h2 {
+    display: flex;
+    height: min-content;
+    margin: 0px;
 }
 .tagImageContainer {
     display: flex;

@@ -1,7 +1,8 @@
 
-    
-    
-    {% for post in site.posts %}
+{% assign count = 0 %}
+{% for post in site.posts limit:10 %} 
+  {% if post.show %}
+      {% if count < 10 %} 
     <div class="blogCard">
             <div class="blogCardImageContainer">
                 <a href="{{ post.url }}">
@@ -14,5 +15,8 @@
             
         
     </div>
-    {% endfor %}
+    {% assign count = count | plus: 1 %}
+    {% endif %}
+{% endif %}
+{% endfor %}
  

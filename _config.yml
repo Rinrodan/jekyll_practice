@@ -1,3 +1,8 @@
+title: hanabustillos.com
+description:
+url: hanabustillos.com
+author: Hana Bustillos
+
 collections:
   authors:
     output: true
@@ -5,6 +10,7 @@ collections:
 plugins:
   - jekyll-paginate
   - jekyll-postcss
+  - jekyll-feed
 
 # Enable safe mode
 safe: true
