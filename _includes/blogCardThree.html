@@ -1,0 +1,18 @@
+
+    
+    
+    {% for post in site.posts %}
+    <div class="blogCard">
+            <div class="blogCardImageContainer">
+                <a href="{{ post.url }}">
+                    <img class="blogCardImage" src="{{post.image_url}}" alt="{{post.image_title}}"/>
+                </a>
+            </div>
+            
+                <div class="blogCardTitle">{{post.title}}</div>
+                <div class="blogCardDescription">{{post.description}}</div>
+            
+        
+    </div>
+    {% endfor %}
+ 

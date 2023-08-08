@@ -3,11 +3,13 @@ layout: post
 author: ted
 description: This is a blog post about kiwi fruit.
 tags:
-- fruit
-- food
-- kiwi
+- Fruit
+- Food
+- Kiwi
 
 image_url: https://servingjoy.com/wp-content/uploads/2015/04/Fun-Facts-of-Kiwifruit.jpg
+image_artist: Photo by Kiwi Artist
+artist_url: https://www.pexels.com/photo/photo-of-person-holding-cup-3363111/
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the
 edible berry of several species of woody vines in the genus Actinidia.
