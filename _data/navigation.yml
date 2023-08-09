@@ -1,12 +1,12 @@
 - name: Blog
-  link: /blog.html
+  link: /jekyll_practice/blog.html
 - name: About
-  link: /about.html
+  link: /jekyll_practice/about.html
 - name: Tags
-  link: /tags.html
+  link: /jekyll_practice/tags.html
 - name: Top Post
   link: /2023/02/24/why-starting.html
 - name: Feed
-  link: /feed.xml
+  link: /jekyll_practice/feed.xml
 
 
