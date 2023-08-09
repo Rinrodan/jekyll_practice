@@ -4,7 +4,7 @@ url: https://rinrodan.github.io/jekyll_practice
 
 author: Hana Bustillos
 
-permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /jekyll_practice/:categories/:year/:month/:day/:title:output_ext
 
 collections:
   authors:
