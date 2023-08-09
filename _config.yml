@@ -1,6 +1,7 @@
 title: hanabustillos.com
 description:
 url: hanabustillos.com
+baseurl: ""
 author: Hana Bustillos
 
 collections:

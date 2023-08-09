@@ -1,0 +1,9 @@
+<head>
+    <meta charset="utf-8">
+    {% if JEKYLL_ENV=development %}
+        <link rel="stylesheet" href="/assets/css/style.css">
+    {% else JEKYLL_ENV=production %}
+        <link rel="stylesheet" href="https://rinrodan.github.io/jekyll_practice/assets/css/style.css">
+    {% endif %}
+    <title class="pageTitle">{{ page.title }}</title>
+  </head>
