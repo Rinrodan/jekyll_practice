@@ -14,7 +14,8 @@ image_artist: Photo by bing
 artist_url: https://www.bing.com/create?toWww=1&redig=0C4E5F2B7AB8495795A96A911CB64158
 description: ""
 toc: true
-category: page
+category: /page
+baseurl: /jekyll_practice
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: tags
 title: Tag Page
-category: page
+category: /page
 ---
 <div markdown=1 class="tagsSection">
 
