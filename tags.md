@@ -1,7 +1,7 @@
 ---
 layout: tags
 title: Tag Page
-permalink: /tags
+category: page
 ---
 <div markdown=1 class="tagsSection">
 

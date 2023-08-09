@@ -6,6 +6,7 @@ artist_url: https://www.pexels.com/photo/photo-of-person-holding-cup-3363111/
 image_title: photo of person holding cup
 date: 2023-02-24T14:50:24-07:00
 draft: false
+category: blog
 author: "Hana Bustillos"
 tags:
   - Blog
