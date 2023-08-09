@@ -1,7 +1,7 @@
 title: hanabustillos.com
 description:
 url: hanabustillos.com
-baseurl: ""
+baseurl: "jekyll_practice"
 author: Hana Bustillos
 
 collections:
